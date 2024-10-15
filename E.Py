@@ -1,9 +1,32 @@
 print("Random dude: Yo bro wake up. hello?. HELLO??? WAKE UP!.")
+input(" ")
 print("\nYou: My bad, fell asleep.\n\nRandom dude: You missed the rules")
+input("")
 print("\nYou: Rules? what are you talking about.")
+input("")
 print("\nYou: Wait an even better question, who are you?")
-print("\nRandom dude: Wait are you serio- wait... dont tell me it finally happened to you")
+input("")
+print("\nRandom dude: are you serio- wait... dont tell me it finally happened to you")
+input("")
 print("\nYou: Happened to me? what are you talking about?")
+input("")
 print("\nRandom dude: ok listen to me carfully.")
-print("\nRandom dude: You or should i say we were born and raised in this tower or whatever you wanna call it.")
-print("\nRandom dude: When we were childs the people of this tower experiemented on us and told us that some of side affacts ")
+input("")
+print("\nRandom dude: You or should i say ´We´ were born and raised in this tower or Stadium or whatever you wanna call it")
+input("")
+print("\nRandom dude: When we were childs the people of this Stadium experiemented on us and apparently one of the side effects is that when we reach a sertain age we experience memory loss")
+input("")
+print("\nRandom dude: Anyways, do you atleast remember your name?")
+name = input("Name:")
+print("\nRandom dude: Well... not exactly your name but this can be your new name!\nHi", name,)
+
+
+def runda():
+    Runda = 1
+    Hi = int(input("ange runda"))
+    if Hi >= Runda:
+        Runda = Runda + 1
+        print(Runda)
+
+
+runda()
