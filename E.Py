@@ -19,14 +19,3 @@ input("")
 print("\nRandom dude: Anyways, do you atleast remember your name?")
 name = input("Name:")
 print("\nRandom dude: Well... not exactly your name but this can be your new name!\nHi", name,)
-
-
-def runda():
-    Runda = 1
-    Hi = int(input("ange runda"))
-    if Hi >= Runda:
-        Runda = Runda + 1
-        print(Runda)
-
-
-runda()
